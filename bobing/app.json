@@ -1,0 +1,23 @@
+{
+    "pages": [
+        "pages/welcome/welcome",
+        "pages/index/index",
+        "pages/rule/rule",
+        "pages/choose/choose",
+        "pages/loading/loading"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#abc",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "中秋博饼♪(^∇^*)",
+        "backgroundColor": "#fff",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh": false
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true,
+    "sitemapLocation": "sitemap.json"
+}
