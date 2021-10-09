@@ -1,0 +1,16 @@
+<!--pages/choose/choose.wxml-->
+
+<view>
+    <view>
+      <text>选择游戏模式</text>
+    </view>
+    <view class="button-danren">
+         <button type="{{buttonType}}" bindtap="back">{{buttondanrenValue}}</button>
+    </view>
+
+    <view class="button-duoren">
+         <button type="{{buttonType}}" bindtap="loading">{{buttonduorenValue}}</button>
+    </view>
+</view>
+
+

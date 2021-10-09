@@ -1,0 +1,25 @@
+.page-container{
+    display:flex;
+    height: 100vh;
+    background-color:#b879a5bb;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 245, 245);
+  }
+text{
+    font-size: 20px;
+    margin-left:15px;
+    color:rgb(221, 235, 27);
+}
+
+.button-begin{
+    padding-top: 25px;
+    width:45%;
+    margin-left: 30rpx;
+}
+.button-rule{
+    padding-top: 4px;
+    width:45%;
+    margin-left: 30rpx;
+}

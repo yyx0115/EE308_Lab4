@@ -1,0 +1,18 @@
+
+<view class="page-container">
+    <view>
+                 <text1>《中秋博饼规则》</text1>
+    </view>
+    
+    <view>
+         <image src="https://pic44.photophoto.cn/20170929/0013026397470870_b.jpg"></image>
+    </view>
+    
+    <view class="button-back">
+             <button type="{{buttonType}}" bindtap="back">{{buttonValue}}</button>
+        </view>
+
+     <view class="button-shouye">
+          <button type="{{buttonType}}" bindtap="goShouye">{{buttonValue1}}</button>
+        </view>
+        </view>

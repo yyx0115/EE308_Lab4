@@ -1,0 +1,22 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="page-container">
+    <view>
+         <image src="https://tse1-mm.cn.bing.net/th/id/R-C.9c385cf65dffe6a1a6267de74e428c93?rik=jukUCSgH1gvcQA&riu=http%3a%2f%2fimg.lanrentuku.com%2fimg%2fallimg%2f1709%2f15066954293405.jpg&ehk=VPpZx%2fbZ2EpCzrn4zZiFfbzGOpFFsvG%2fWbxr7WFHLYY%3d&risl=&pid=ImgRaw&r=0"></image>
+    </view>
+    <view>
+       <text>Welcome to game~
+          这里是中秋博饼小游戏
+       </text>
+    
+    </view>
+
+    <view class="button-begin">
+        <button type="{{buttonType}}" bindtap="choose">{{buttonValue}}</button> 
+     
+    </view>
+
+    <view class="button-rule">
+         <button type="{{buttonruleType}}" bindtap="goto">{{buttonruleValue}}</button>
+    </view>
+
+</view>
